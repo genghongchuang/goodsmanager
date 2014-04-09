@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=utf-8
+encoding//src/main/java/com/geng/goodsmanage/utils/KeySynchronizer.java=UTF-8
+encoding//src/main/java/com/geng/goodsmanage/utils/SpringContextUtil.java=UTF-8
+encoding//src/main/java/com/geng/goodsmanage/utils/pagination/PageUtil.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/goods/goodsTurnoverList.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/index1.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/login.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/system/roleList.jsp=UTF-8
+encoding//src/test/java=utf-8
+encoding/<project>=UTF-8
