@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_content{
+	position:relative;
+	margin:0px auto 0px auto;
+	padding:20px 0px 0px 0px;
+	width:960px;	
+}
+#main_content h1{
+	float:left;
+	width:960px;
+	height:130px;	
+}
+#main_content h1 span{
+	display:none;	
+}
+#login_box{
+	float:right;
+	padding:0px 20px 0px 20px;
+	width:920px;
+/* 	height:400px; */
+/* 	background:url(img/login_bg_show_sh.jpg) no-repeat;	 */
+	background:url(img/logo2.jpg) no-repeat;	
+}
+#login_box p{
+	float:right;
+	text-align:right;
+	width:920px;
+	font-size:12px;
+	line-height:24px;
+}
+#login_box p a{
+	color:#89bb1e;	
+}
+#login{
+	float:right;
+	width:348px;
+	
+	padding:0px 0px 0px 0px;
+	background:url(img/logn_tab_bottom.gif) no-repeat left bottom;
+	background-color:#f9f7f8;	
+}
+#login_tab{
+	float:left;
+	width:348px;
+	height:42px;
+	background:url(img/login_tab_header.gif) no-repeat left top;	
+}
+#login h2 span{
+	display:none;	
+}
+#login ul{
+	margin:1px 0px 0px 2px;
+	float:left;
+	width:348px;
+	height:41px;
+}
+#login li{
+	display:block;
+	float:left;
+	width:80px;
+	height:41px;
+	border-right:1px solid #cecece;	
+	text-align:center;
+	line-height:41px;
+	font-size:16px;
+	font-family:"微软雅黑","黑体";
+	color:#7b7b7b;
+}
+#login li.last_list{
+	border:0px;	
+}
+#login li.current{
+	color:#a4ca53;
+	background-color:#f9f7f8;	
+}
+#login form{
+	float:left;
+	width:308px;
+	height:230px;	
+	padding:20px;
+	background:url(img/login_tab_bg.gif) repeat-y;
+}
+#login form p{
+	float:left;
+	width:318px;
+	text-align:left;
+	line-height:36px;
+	height:38px;
+}
+#login form p label{
+	float:left;
+	font-size:14px;
+	color:#7b7b7b;
+	width:90px;
+	padding:0px 5px 0px 0px;
+	text-align:right;	
+}
+label{
+	float:left;
+	font-size:14px;
+	color:#7b7b7b;
+	width:90px;
+	padding:0px 5px 0px 0px;
+	text-align:right;	
+}
+#login form p.form_confirm{
+	width:210px;
+	padding:2px 0px 0px 85px;
+		
+}
+/* #login form input#username,#login form input#password,#login form input#password_type,#login form input#areaname,#login form input#zoneName{ */
+#login input {
+	float:left;
+	width:130px;
+	height:28px;
+	padding:2px 5px 2px 5px;
+}
+input {
+	float:left;
+	width:140px;
+	height:25px;
+	padding:2px 5px 2px 5px;
+}
+
+#login form select{
+	float:left;
+	width:150px;
+	height:28px;
+	padding:2px 5px 2px 5px;
+}
+
+#login form img{
+	float:left;
+	padding:2px 5px 0px 5px;	
+	
+}
+#login form input#verify{
+	float:left;
+	width:30px;	
+	height:20px;
+	padding:2px 5px 2px 5px;
+
+}
+#login form input#randomId{
+	float:left;
+	width:55px;	
+	height:20px;
+	padding:2px 5px 2px 5px;
+
+}
+#login form .free_reg{
+	float:right;cursor:pointer;font-size:12px;color:#a0a0a0; padding:2px 5px 0px 0px; text-align:right; height:20px;
+}
+
+
+#login form .change_code{
+	color:#707070;	
+}
+#login form span a{
+	color:#7b7b7b;	
+}
+.forclose{
+	display:block;
+	width:1px;
+	height:1px;
+	clear:both;
+	visibility:hidden;	
+}
+#login form .orangebtn_s { width:61px; height:26px; background-image:url(img/login.gif); border:0; padding:0px;}
+#login form .orangebtn_r { width:61px; height:26px; background-image:url(../../images/login/login_reg.gif); border:0; padding:0px;}
+.login_city_table{margin-left:1px; margin-top:1px;background: #fff; font-size:14px; border:1px solid #cecece}
+.login_city_table td{ padding:0px 10px; height:22px; line-height:22px}
+.login_city_table a{ color:#666; text-decoration:none}
+.login_zone_table{margin-left:1px; margin-right:1px; margin-top:1px;background: #fff; font-size:14px; border:1px solid #cecece}
+.login_zone_table td{ padding:0px 10px; height:22px; line-height:22px}
+.login_zone_table a{ color:#666; text-decoration:none}
+.free_reg_01{background:url(../images/login/login_tab_bg.gif) repeat-y;	font-size:12px;color:#a0a0a0;padding:2px 5px 0px 0px;text-align:right;height:20px}
+.free_reg_01 a{color:#89bb1e;}
+#messmage{float:right; width:920px; padding:20px 0px 9px 0px;}
